@@ -1,0 +1,12 @@
+@RELATION 'data relation'
+
+@ATTRIBUTE 'fo{o}' NUMERIC
+@ATTRIBUTE bar STRING
+@ATTRIBUTE baz DATE
+@ATTRIBUTE bon NUMERIC
+@ATTRIBUTE boo {'ruby\nred',green,'light blue'}
+
+@DATA
+1,x,2014-10-24T09:03:34,7,'ruby\nred'
+2.3,y,?,6,green
+-0.6,'?',?,5,'light blue',{5.3}
