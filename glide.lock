@@ -1,0 +1,38 @@
+hash: 95f280f715fc027ecc4cfa1706da0a7788dd636817928bed1d59343334e9c472
+updated: 2016-06-25T10:31:57.675669555+01:00
+imports: []
+testImports:
+- name: github.com/onsi/ginkgo
+  version: 059cec02d342bab423425a99b191186a03255e9e
+  subpackages:
+  - extensions/table
+  - config
+  - internal/codelocation
+  - internal/failer
+  - internal/remote
+  - internal/suite
+  - internal/testingtproxy
+  - internal/writer
+  - reporters
+  - reporters/stenographer
+  - types
+  - internal/containernode
+  - internal/leafnodes
+  - internal/spec
+  - internal/specrunner
+- name: github.com/onsi/gomega
+  version: 0df7b7fdb38123c12a1f569f0affb2c2a7bd72cf
+  subpackages:
+  - internal/assertion
+  - internal/asyncassertion
+  - internal/testingtsupport
+  - matchers
+  - types
+  - internal/oraclematcher
+  - format
+  - matchers/support/goraph/bipartitegraph
+  - matchers/support/goraph/edge
+  - matchers/support/goraph/node
+  - matchers/support/goraph/util
+- name: gopkg.in/yaml.v2
+  version: a83829b6f1293c91addabc89d0571c246397bbf4
