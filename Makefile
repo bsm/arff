@@ -8,3 +8,6 @@ test:
 
 bench:
 	go test ./... -bench=. -v 1
+
+README.md: README.md.tpl $(wildcard *.go)
+	becca -package $(subst $(GOPATH)/src/,,$(PWD))
