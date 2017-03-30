@@ -6,6 +6,7 @@ import (
 	"time"
 )
 
+// DataType represents the attribute data type
 type DataType uint8
 
 const (

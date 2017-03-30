@@ -9,7 +9,7 @@ import (
 
 var _ = Describe("Relation", func() {
 
-	It("should add attributs", func() {
+	It("should add attributes", func() {
 		rel := new(Relation)
 		Expect(rel.AddAttribute("foo", DataTypeNumeric, nil)).To(Succeed())
 		Expect(rel.AddAttribute("bar", DataTypeString, nil)).To(Succeed())

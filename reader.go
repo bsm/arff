@@ -10,6 +10,7 @@ import (
 	"unicode/utf8"
 )
 
+// Reader instances can read ARFF data
 type Reader struct {
 	Relation
 	scn *scanner
@@ -36,7 +37,7 @@ func Open(fname string) (*Reader, error) {
 	return rd, nil
 }
 
-// NewReader craetes an ARFF reader from any io.Reader
+// NewReader creates an ARFF reader from any io.Reader
 func NewReader(src io.Reader) (*Reader, error) {
 	r := &Reader{
 		src: src,

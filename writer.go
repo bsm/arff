@@ -10,6 +10,7 @@ import (
 	"time"
 )
 
+// Writer instances can write ARFF data
 type Writer struct {
 	attrs int
 	buf   *writeBuffer
