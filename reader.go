@@ -322,7 +322,7 @@ MainLoop:
 		i += size
 	}
 	if min < len(line) {
-		fields = append(fields, string(line[min:len(line)]))
+		fields = append(fields, string(line[min:]))
 	}
 
 	return fields

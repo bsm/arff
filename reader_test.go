@@ -117,9 +117,9 @@ var _ = Describe("Reader", func() {
 				},
 			},
 			[]DataRow{
-				DataRow{Values: []interface{}{1.0, "x", time.Unix(1414141414, 0).UTC(), 7.0, "ruby\nred"}},
-				DataRow{Values: []interface{}{2.3, "y", nil, 6.0, "green"}},
-				DataRow{Values: []interface{}{-0.6, "?", nil, 5.0, "light blue"}, Weight: 5.3},
+				{Values: []interface{}{1.0, "x", time.Unix(1414141414, 0).UTC(), 7.0, "ruby\nred"}},
+				{Values: []interface{}{2.3, "y", nil, 6.0, "green"}},
+				{Values: []interface{}{-0.6, "?", nil, 5.0, "light blue"}, Weight: 5.3},
 			},
 		),
 
